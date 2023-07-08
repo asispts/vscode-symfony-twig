@@ -1,3 +1,21 @@
-.vscode/**
-.vscode-test/**
-.gitignore
+# .vscode/**
+# .vscode-test/**
+# .gitignore
+
+# **/*
+#
+# !/syntaxes/
+
+# Ignore everything
+*
+*/**
+
+# Whitelist files
+!LICENSE
+!CHANGELOG.md
+!language-configuration.json
+!syntaxes/*
+
+
+# !.vscodeignore
+# !src/*

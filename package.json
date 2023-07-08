@@ -2,9 +2,24 @@
     "name": "vscode-better-twig",
     "displayName": "better-twig",
     "description": "Better language support and formatter for Symfony Twig",
+    "publisher": "asispts",
+    "license": "MIT",
     "version": "0.0.1",
+    "author": {
+        "name": "Asis Pattisahusiwa",
+        "email": "asispts@gmail.com",
+        "url": "https://github.com/asispts"
+    },
+    "homepage": "https://github.com/asispts/vscode-better-twig",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/asispts/vscode-better-twig"
+    },
+    "bugs": {
+        "url": "https://github.com/asispts/vscode-better-twig/issues"
+    },
     "engines": {
-        "vscode": "^1.80.0"
+        "vscode": "^1.70.0"
     },
     "categories": [
         "Programming Languages"
