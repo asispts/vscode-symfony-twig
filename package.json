@@ -1,0 +1,35 @@
+{
+    "name": "vscode-better-twig",
+    "displayName": "better-twig",
+    "description": "Better language support and formatter for Symfony Twig",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.80.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "twig",
+                "aliases": [
+                    "HTML (Twig)",
+                    "twig"
+                ],
+                "extensions": [
+                    ".twig",
+                    ".html.twig"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "twig",
+                "scopeName": "text.html.twig",
+                "path": "./syntaxes/twig.tmLanguage"
+            }
+        ]
+    }
+}
