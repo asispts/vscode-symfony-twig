@@ -5,6 +5,7 @@
     "publisher": "asispts",
     "license": "MIT",
     "version": "0.0.1",
+    "icon": "icon.png",
     "author": {
         "name": "Asis Pattisahusiwa",
         "email": "asispts@gmail.com",
