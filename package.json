@@ -19,8 +19,9 @@
     "bugs": {
         "url": "https://github.com/asispts/vscode-better-twig/issues"
     },
+    "main": "./out/main.js",
     "engines": {
-        "vscode": "^1.75"
+        "vscode": "^1.75.0"
     },
     "categories": [
         "Programming Languages"
@@ -47,5 +48,13 @@
                 "path": "./syntaxes/twig.tmLanguage"
             }
         ]
+    },
+    "scripts": {
+        "vscode:prepublish": "pnpm build",
+        "build": "tsc"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "typescript": "^5.1.6"
     }
 }
