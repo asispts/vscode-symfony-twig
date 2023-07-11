@@ -20,7 +20,7 @@
         "url": "https://github.com/asispts/vscode-better-twig/issues"
     },
     "engines": {
-        "vscode": "^1.70.0"
+        "vscode": "^1.75"
     },
     "categories": [
         "Programming Languages"
