@@ -45,7 +45,7 @@
             {
                 "language": "twig",
                 "scopeName": "text.html.twig",
-                "path": "./syntaxes/twig.tmLanguage"
+                "path": "./language/twig.tmLanguage"
             }
         ]
     },
