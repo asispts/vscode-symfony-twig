@@ -26,6 +26,9 @@
     "categories": [
         "Programming Languages"
     ],
+    "extensionDependencies": [
+        "vscode.html-language-features"
+    ],
     "contributes": {
         "languages": [
             {
@@ -46,6 +49,12 @@
                 "language": "twig",
                 "scopeName": "text.html.twig",
                 "path": "./language/twig.tmLanguage"
+            }
+        ],
+        "htmlLanguageParticipants": [
+            {
+                "languageId": "twig",
+                "autoInsert": true
             }
         ]
     },
