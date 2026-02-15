@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
     <key>fileTypes</key>
@@ -183,7 +184,8 @@
                             <key>match</key>
                             <string>"[^"&gt;]*"</string>
                             <key>name</key>
-                            <string>string.quoted.double.doctype.identifiers-and-DTDs.html</string>
+                            <string
+                >string.quoted.double.doctype.identifiers-and-DTDs.html</string>
                         </dict>
                     </array>
                 </dict>
@@ -325,7 +327,8 @@
                                 <key>1</key>
                                 <dict>
                                     <key>name</key>
-                                    <string>punctuation.definition.comment.js</string>
+                                    <string
+                    >punctuation.definition.comment.js</string>
                                 </dict>
                             </dict>
                             <key>match</key>
@@ -341,7 +344,8 @@
                                 <key>0</key>
                                 <dict>
                                     <key>name</key>
-                                    <string>punctuation.definition.comment.js</string>
+                                    <string
+                    >punctuation.definition.comment.js</string>
                                 </dict>
                             </dict>
                             <key>end</key>
@@ -384,7 +388,8 @@
                         (?&lt;=\{\%\sjs\s\%\}|\{\%\sincludejs\s\%\})
                     </string>
             <key>comment</key>
-            <string>Add JS support to set tags that use the pattern "css" in their name</string>
+            <string
+        >Add JS support to set tags that use the pattern "css" in their name</string>
             <key>end</key>
             <string>(?ix)(?=\{\%\sendjs\s\%\}|\{\%\sendincludejs\s\%\})</string>
             <key>name</key>
@@ -403,9 +408,11 @@
                         (?&lt;=\{\%\scss\s\%\}|\{\%\sincludecss\s\%\}|\{\%\sincludehirescss\s\%\})
                         </string>
             <key>comment</key>
-            <string>Add CSS support to set tags that use the pattern "css" in their name</string>
+            <string
+        >Add CSS support to set tags that use the pattern "css" in their name</string>
             <key>end</key>
-            <string>(?ix)(?=\{\%\sendcss\s\%\}|\{\%\sendincludecss\s\%\}|\{\%\sendincludehirescss\s\%\})</string>
+            <string
+        >(?ix)(?=\{\%\sendcss\s\%\}|\{\%\sendincludecss\s\%\}|\{\%\sendincludehirescss\s\%\})</string>
             <key>name</key>
             <string>source.css.embedded.twig</string>
             <key>patterns</key>
@@ -446,7 +453,8 @@
         </dict>
         <dict>
             <key>begin</key>
-            <string>(&lt;/?)((?i:address|blockquote|dd|div|dl|dt|fieldset|form|frame|frameset|h1|h2|h3|h4|h5|h6|iframe|noframes|object|ol|p|ul|applet|center|dir|hr|menu|pre)\b)</string>
+            <string
+        >(&lt;/?)((?i:address|blockquote|dd|div|dl|dt|fieldset|form|frame|frameset|h1|h2|h3|h4|h5|h6|iframe|noframes|object|ol|p|ul|applet|center|dir|hr|menu|pre)\b)</string>
             <key>beginCaptures</key>
             <dict>
                 <key>1</key>
@@ -482,7 +490,8 @@
         </dict>
         <dict>
             <key>begin</key>
-            <string>(&lt;/?)((?i:a|abbr|acronym|area|b|base|basefont|bdo|big|br|button|caption|cite|code|col|colgroup|del|dfn|em|font|head|html|i|img|input|ins|isindex|kbd|label|legend|li|link|map|meta|noscript|optgroup|option|param|q|s|samp|script|select|small|span|strike|strong|style|sub|sup|table|tbody|td|textarea|tfoot|th|thead|title|tr|tt|u|var)\b)</string>
+            <string
+        >(&lt;/?)((?i:a|abbr|acronym|area|b|base|basefont|bdo|big|br|button|caption|cite|code|col|colgroup|del|dfn|em|font|head|html|i|img|input|ins|isindex|kbd|label|legend|li|link|map|meta|noscript|optgroup|option|param|q|s|samp|script|select|small|span|strike|strong|style|sub|sup|table|tbody|td|textarea|tfoot|th|thead|title|tr|tt|u|var)\b)</string>
             <key>beginCaptures</key>
             <dict>
                 <key>1</key>
@@ -639,7 +648,8 @@
                         </dict>
                     </dict>
                     <key>match</key>
-                    <string>(&amp;)([a-zA-Z0-9]+|#[0-9]+|#x[0-9a-fA-F]+)(;)</string>
+                    <string
+            >(&amp;)([a-zA-Z0-9]+|#[0-9]+|#x[0-9a-fA-F]+)(;)</string>
                     <key>name</key>
                     <string>constant.character.entity.html</string>
                 </dict>
@@ -865,14 +875,16 @@
                 <!-- LANGUAGE -->
                 <dict>
                     <key>match</key>
-                    <string>(?i)(?&lt;=[\s\[\(\{:,])(?:true|false|null|none)(?=[\s\)\]\}\,])</string>
+                    <string
+            >(?i)(?&lt;=[\s\[\(\{:,])(?:true|false|null|none)(?=[\s\)\]\}\,])</string>
                     <key>name</key>
                     <string>constant.language.twig</string>
                 </dict>
                 <!-- NUMERIC -->
                 <dict>
                     <key>match</key>
-                    <string>(?&lt;=[\s\[\(\{:,]|\.\.|\*\*)[0-9]+(?:\.[0-9]+)?(?=[\s\)\]\}\,]|\.\.|\*\*)</string>
+                    <string
+            >(?&lt;=[\s\[\(\{:,]|\.\.|\*\*)[0-9]+(?:\.[0-9]+)?(?=[\s\)\]\}\,]|\.\.|\*\*)</string>
                     <key>name</key>
                     <string>constant.numeric.twig</string>
                 </dict>
@@ -937,7 +949,8 @@
                         </dict>
                     </dict>
                     <key>match</key>
-                    <string>(?&lt;=\s)((?:!|=)=|&lt;=?|&gt;=?|(?:not )?in|is(?: not)?|(?:ends|starts) with|matches)(?=\s)</string>
+                    <string
+            >(?&lt;=\s)((?:!|=)=|&lt;=?|&gt;=?|(?:not )?in|is(?: not)?|(?:ends|starts) with|matches)(?=\s)</string>
                 </dict>
 
                 <!-- LOGICAL -->
@@ -965,7 +978,8 @@
                         </dict>
                     </dict>
                     <key>match</key>
-                    <string>(?&lt;=[a-zA-Z0-9_\x{7f}-\x{ff}\]\)'"])\.\.(?=[a-zA-Z0-9_\x{7f}-\x{ff}'"])</string>
+                    <string
+            >(?&lt;=[a-zA-Z0-9_\x{7f}-\x{ff}\]\)'"])\.\.(?=[a-zA-Z0-9_\x{7f}-\x{ff}'"])</string>
                 </dict>
 
                 <!-- FILTER -->
@@ -979,7 +993,8 @@
                         </dict>
                     </dict>
                     <key>match</key>
-                    <string>(?&lt;=[a-zA-Z0-9_\x{7f}-\x{ff}\]\}\)'"])\|(?=[a-zA-Z_\x{7f}-\x{ff}])</string>
+                    <string
+            >(?&lt;=[a-zA-Z0-9_\x{7f}-\x{ff}\]\}\)'"])\|(?=[a-zA-Z_\x{7f}-\x{ff}])</string>
                 </dict>
             </array>
         </dict>
@@ -996,7 +1011,8 @@
                 </dict>
             </dict>
             <key>match</key>
-            <string>(?&lt;=[\s\{\[\(:,])([a-zA-Z_\x{7f}-\x{ff}][a-zA-Z0-9_\x{7f}-\x{ff}]*)(?=[\s\}\[\]\(\)\.\|,:])</string>
+            <string
+        >(?&lt;=[\s\{\[\(:,])([a-zA-Z_\x{7f}-\x{ff}][a-zA-Z0-9_\x{7f}-\x{ff}]*)(?=[\s\}\[\]\(\)\.\|,:])</string>
         </dict>
 
         <!-- PROPERTIES -->
@@ -1050,7 +1066,8 @@
                         <key>3</key>
                         <dict>
                             <key>name</key>
-                            <string>punctuation.definition.parameters.begin.twig</string>
+                            <string
+                >punctuation.definition.parameters.begin.twig</string>
                         </dict>
                     </dict>
                     <key>end</key>
@@ -1060,7 +1077,8 @@
                         <key>0</key>
                         <dict>
                             <key>name</key>
-                            <string>punctuation.definition.parameters.end.twig</string>
+                            <string
+                >punctuation.definition.parameters.end.twig</string>
                         </dict>
                     </dict>
                     <key>patterns</key>
@@ -1125,7 +1143,8 @@
                         <key>1</key>
                         <dict>
                             <key>name</key>
-                            <string>punctuation.section.array.begin.twig</string>
+                            <string
+                >punctuation.section.array.begin.twig</string>
                         </dict>
                         <key>2</key>
                         <dict>
@@ -1140,7 +1159,8 @@
                         <key>4</key>
                         <dict>
                             <key>name</key>
-                            <string>punctuation.section.array.begin.twig</string>
+                            <string
+                >punctuation.section.array.begin.twig</string>
                         </dict>
                         <key>5</key>
                         <dict>
@@ -1155,7 +1175,8 @@
                         <key>7</key>
                         <dict>
                             <key>name</key>
-                            <string>punctuation.section.array.begin.twig</string>
+                            <string
+                >punctuation.section.array.begin.twig</string>
                         </dict>
                         <key>8</key>
                         <dict>
@@ -1195,7 +1216,8 @@
                         <key>0</key>
                         <dict>
                             <key>name</key>
-                            <string>punctuation.definition.string.begin.twig</string>
+                            <string
+                >punctuation.definition.string.begin.twig</string>
                         </dict>
                     </dict>
                     <key>end</key>
@@ -1205,7 +1227,8 @@
                         <key>0</key>
                         <dict>
                             <key>name</key>
-                            <string>punctuation.definition.string.end.twig</string>
+                            <string
+                >punctuation.definition.string.end.twig</string>
                         </dict>
                     </dict>
                     <key>name</key>
@@ -1221,7 +1244,8 @@
                         <key>0</key>
                         <dict>
                             <key>name</key>
-                            <string>punctuation.definition.string.begin.twig</string>
+                            <string
+                >punctuation.definition.string.begin.twig</string>
                         </dict>
                     </dict>
                     <key>end</key>
@@ -1231,7 +1255,8 @@
                         <key>0</key>
                         <dict>
                             <key>name</key>
-                            <string>punctuation.definition.string.end.twig</string>
+                            <string
+                >punctuation.definition.string.end.twig</string>
                         </dict>
                     </dict>
                     <key>name</key>
@@ -1426,7 +1451,8 @@
         <key>twig-keywords</key>
         <dict>
             <key>match</key>
-            <string>(?&lt;=\s)((?:end)?(?:autoescape|block|embed|filter|for|if|macro|raw|sandbox|set|spaceless|trans|verbatim)|as|do|else|elseif|extends|flush|from|ignore missing|import|include|only|use|with)(?=\s)</string>
+            <string
+        >(?&lt;=\s)((?:end)?(?:autoescape|block|embed|filter|for|if|macro|raw|sandbox|set|spaceless|trans|verbatim)|as|do|else|elseif|extends|flush|from|ignore missing|import|include|only|use|with)(?=\s)</string>
             <key>name</key>
             <string>keyword.control.twig</string>
         </dict>
@@ -1435,7 +1461,8 @@
         <key>twig-functions-warg</key>
         <dict>
             <key>begin</key>
-            <string>(?&lt;=[\s\(\[\{:,])(attribute|block|constant|cycle|date|divisible by|dump|include|max|min|parent|random|range|same as|source|template_from_string)(\()</string>
+            <string
+        >(?&lt;=[\s\(\[\{:,])(attribute|block|constant|cycle|date|divisible by|dump|include|max|min|parent|random|range|same as|source|template_from_string)(\()</string>
             <key>beginCaptures</key>
             <dict>
                 <key>1</key>
@@ -1446,7 +1473,8 @@
                 <key>2</key>
                 <dict>
                     <key>name</key>
-                    <string>punctuation.definition.parameters.begin.twig</string>
+                    <string
+            >punctuation.definition.parameters.begin.twig</string>
                 </dict>
             </dict>
             <key>end</key>
@@ -1561,7 +1589,8 @@
                 <key>4</key>
                 <dict>
                     <key>name</key>
-                    <string>punctuation.definition.parameters.begin.twig</string>
+                    <string
+            >punctuation.definition.parameters.begin.twig</string>
                 </dict>
             </dict>
             <key>end</key>
@@ -1642,7 +1671,8 @@
         <key>twig-filters-warg</key>
         <dict>
             <key>begin</key>
-            <string>(?&lt;=(?:[a-zA-Z0-9_\x{7f}-\x{ff}\]\)\'\"]\|)|\{%\sfilter\s)(batch|convert_encoding|date|date_modify|default|e(?:scape)?|format|join|merge|number_format|replace|round|slice|split|trim)(\()</string>
+            <string
+        >(?&lt;=(?:[a-zA-Z0-9_\x{7f}-\x{ff}\]\)\'\"]\|)|\{%\sfilter\s)(batch|convert_encoding|date|date_modify|default|e(?:scape)?|format|join|merge|number_format|replace|round|slice|split|trim)(\()</string>
             <key>beginCaptures</key>
             <dict>
                 <key>1</key>
@@ -1653,7 +1683,8 @@
                 <key>2</key>
                 <dict>
                     <key>name</key>
-                    <string>punctuation.definition.parameters.begin.twig</string>
+                    <string
+            >punctuation.definition.parameters.begin.twig</string>
                 </dict>
             </dict>
             <key>end</key>
@@ -1737,14 +1768,16 @@
                 </dict>
             </dict>
             <key>match</key>
-            <string>(?&lt;=(?:[a-zA-Z0-9_\x{7f}-\x{ff}\]\)\'\"]\|)|\{%\sfilter\s)(abs|capitalize|e(?:scape)?|first|join|(?:json|url)_encode|keys|last|length|lower|nl2br|number_format|raw|reverse|round|sort|striptags|title|trim|upper)(?=[\s\|\]\}\):,]|\.\.|\*\*)</string>
+            <string
+        >(?&lt;=(?:[a-zA-Z0-9_\x{7f}-\x{ff}\]\)\'\"]\|)|\{%\sfilter\s)(abs|capitalize|e(?:scape)?|first|join|(?:json|url)_encode|keys|last|length|lower|nl2br|number_format|raw|reverse|round|sort|striptags|title|trim|upper)(?=[\s\|\]\}\):,]|\.\.|\*\*)</string>
         </dict>
 
         <!-- FILTERS (w/ arguments & user-defined) -->
         <key>twig-filters-warg-ud</key>
         <dict>
             <key>begin</key>
-            <string>(?&lt;=(?:[a-zA-Z0-9_\x{7f}-\x{ff}\]\)\'\"]\|)|\{%\sfilter\s)([a-zA-Z_\x{7f}-\x{ff}][a-zA-Z0-9_\x{7f}-\x{ff}]*)(\()</string>
+            <string
+        >(?&lt;=(?:[a-zA-Z0-9_\x{7f}-\x{ff}\]\)\'\"]\|)|\{%\sfilter\s)([a-zA-Z_\x{7f}-\x{ff}][a-zA-Z0-9_\x{7f}-\x{ff}]*)(\()</string>
             <key>beginCaptures</key>
             <dict>
                 <key>1</key>
@@ -1755,7 +1788,8 @@
                 <key>2</key>
                 <dict>
                     <key>name</key>
-                    <string>punctuation.definition.parameters.begin.twig</string>
+                    <string
+            >punctuation.definition.parameters.begin.twig</string>
                 </dict>
             </dict>
             <key>end</key>
@@ -1839,7 +1873,8 @@
                 </dict>
             </dict>
             <key>match</key>
-            <string>(?&lt;=(?:[a-zA-Z0-9_\x{7f}-\x{ff}\]\)\'\"]\|)|\{%\sfilter\s)([a-zA-Z_\x{7f}-\x{ff}][a-zA-Z0-9_\x{7f}-\x{ff}]*)</string>
+            <string
+        >(?&lt;=(?:[a-zA-Z0-9_\x{7f}-\x{ff}\]\)\'\"]\|)|\{%\sfilter\s)([a-zA-Z_\x{7f}-\x{ff}][a-zA-Z0-9_\x{7f}-\x{ff}]*)</string>
         </dict>
 
         <!-- TWIG END -->
@@ -1917,7 +1952,8 @@
                                 <key>1</key>
                                 <dict>
                                     <key>name</key>
-                                    <string>punctuation.definition.comment.ruby</string>
+                                    <string
+                    >punctuation.definition.comment.ruby</string>
                                 </dict>
                             </dict>
                             <key>match</key>
@@ -1939,7 +1975,8 @@
                         <key>0</key>
                         <dict>
                             <key>name</key>
-                            <string>punctuation.section.embedded.ruby.nitro</string>
+                            <string
+                >punctuation.section.embedded.ruby.nitro</string>
                         </dict>
                     </dict>
                     <key>end</key>
@@ -1954,7 +1991,8 @@
                                 <key>1</key>
                                 <dict>
                                     <key>name</key>
-                                    <string>punctuation.definition.comment.ruby.nitro</string>
+                                    <string
+                    >punctuation.definition.comment.ruby.nitro</string>
                                 </dict>
                             </dict>
                             <key>match</key>
@@ -2080,7 +2118,8 @@
                         <key>0</key>
                         <dict>
                             <key>name</key>
-                            <string>punctuation.definition.string.begin.html</string>
+                            <string
+                >punctuation.definition.string.begin.html</string>
                         </dict>
                     </dict>
                     <key>contentName</key>
@@ -2092,7 +2131,8 @@
                         <key>0</key>
                         <dict>
                             <key>name</key>
-                            <string>punctuation.definition.string.end.html</string>
+                            <string
+                >punctuation.definition.string.end.html</string>
                         </dict>
                     </dict>
                     <key>name</key>
@@ -2117,7 +2157,8 @@
                         <key>0</key>
                         <dict>
                             <key>name</key>
-                            <string>punctuation.definition.string.begin.html</string>
+                            <string
+                >punctuation.definition.string.begin.html</string>
                         </dict>
                     </dict>
                     <key>contentName</key>
@@ -2129,7 +2170,8 @@
                         <key>0</key>
                         <dict>
                             <key>name</key>
-                            <string>punctuation.definition.string.end.html</string>
+                            <string
+                >punctuation.definition.string.end.html</string>
                         </dict>
                     </dict>
                     <key>name</key>

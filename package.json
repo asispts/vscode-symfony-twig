@@ -1,69 +1,73 @@
 {
-    "name": "vscode-better-twig",
-    "displayName": "better-twig",
-    "description": "Better language support and formatter for Symfony Twig",
-    "publisher": "asispts",
-    "license": "MIT",
-    "version": "0.0.1",
-    "icon": "icon.png",
-    "author": {
-        "name": "Asis Pattisahusiwa",
-        "email": "asispts@gmail.com",
-        "url": "https://github.com/asispts"
-    },
-    "homepage": "https://github.com/asispts/vscode-better-twig",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/asispts/vscode-better-twig"
-    },
-    "bugs": {
-        "url": "https://github.com/asispts/vscode-better-twig/issues"
-    },
-    "main": "./out/main.js",
-    "engines": {
-        "vscode": "^1.75.0"
-    },
-    "categories": [
-        "Programming Languages"
-    ],
-    "extensionDependencies": [
-        "vscode.html-language-features"
-    ],
-    "contributes": {
-        "languages": [
-            {
-                "id": "twig",
-                "aliases": [
-                    "HTML (Twig)",
-                    "twig"
-                ],
-                "extensions": [
-                    ".twig",
-                    ".html.twig"
-                ],
-                "configuration": "./language/language-configuration.json"
-            }
+  "name": "vscode-better-twig",
+  "displayName": "better-twig",
+  "description": "Better language support and formatter for Symfony Twig",
+  "publisher": "asispts",
+  "license": "MIT",
+  "version": "0.0.1",
+  "icon": "icon.png",
+  "author": {
+    "name": "Asis Pattisahusiwa",
+    "email": "asispts@gmail.com",
+    "url": "https://github.com/asispts"
+  },
+  "homepage": "https://github.com/asispts/vscode-better-twig",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asispts/vscode-better-twig"
+  },
+  "bugs": {
+    "url": "https://github.com/asispts/vscode-better-twig/issues"
+  },
+  "main": "./out/main.js",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "extensionDependencies": [
+    "vscode.html-language-features"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "twig",
+        "aliases": [
+          "HTML (Twig)",
+          "twig"
         ],
-        "grammars": [
-            {
-                "language": "twig",
-                "scopeName": "text.html.twig",
-                "path": "./language/twig.tmLanguage"
-            }
+        "extensions": [
+          ".twig",
+          ".html.twig"
         ],
-        "htmlLanguageParticipants": [
-            {
-                "languageId": "twig",
-                "autoInsert": true
-            }
-        ]
-    },
-    "scripts": {
-        "vscode:prepublish": "bun run build",
-        "build": "tsc"
-    },
-    "dependencies": {},
-    "devDependencies": {
-        "typescript": "^5.1.6"
-    }
+        "configuration": "./language/language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "twig",
+        "scopeName": "text.html.twig",
+        "path": "./language/twig.tmLanguage"
+      }
+    ],
+    "htmlLanguageParticipants": [
+      {
+        "languageId": "twig",
+        "autoInsert": true
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "bun run build",
+    "build": "tsc",
+    "format": "prettier --write \"**/*.{json,ts,tsx,js,jsx,xml,plist}\" \"language/*.tmLanguage\"",
+    "format:check": "prettier --check \"**/*.{json,ts,tsx,js,jsx,xml,plist}\" \"language/*.tmLanguage\""
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@prettier/plugin-xml": "^3.4.1",
+    "prettier": "^3.2.5",
+    "typescript": "^5.1.6"
+  }
 }
