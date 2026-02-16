@@ -1,11 +1,21 @@
-name: publish
+name: pre-release
 
 permissions:
   contents: read
 
 on:
-  push:
-    branches: ['main']
+  workflow_dispatch:
+    inputs:
+      preRelease:
+        description: 'Publish as pre-release'
+        required: true
+        type: boolean
+        default: true
+      dryRun:
+        description: 'Dry run (test without publishing)'
+        required: true
+        type: boolean
+        default: false
 
 jobs:
   deploy:
@@ -34,5 +44,6 @@ jobs:
         with:
           pat: ${{ secrets[matrix.pat] }}
           registryUrl: ${{ matrix.registryUrl || '' }}
-          dryRun: true
-          preRelease: true
+          # Use inputs if manually triggered, otherwise use defaults
+          dryRun: ${{ github.event_name == 'workflow_dispatch' && inputs.dryRun || true }}
+          preRelease: ${{ github.event_name == 'workflow_dispatch' && inputs.preRelease || true }}
