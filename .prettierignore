@@ -1,5 +1,6 @@
 node_modules/
 out/
+
 *.vsix
 .git/
-bun.lock
+pnpm-lock.yaml
