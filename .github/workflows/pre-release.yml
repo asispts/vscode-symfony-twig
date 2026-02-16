@@ -44,5 +44,5 @@ jobs:
         with:
           pat: ${{ secrets[matrix.pat] }}
           registryUrl: ${{ matrix.registryUrl || '' }}
-          dryRun: true
+          # dryRun: true
           preRelease: true
