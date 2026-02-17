@@ -57,6 +57,12 @@
         "languageId": "twig",
         "autoInsert": true
       }
+    ],
+    "snippets": [
+      {
+        "language": "twig",
+        "path": "./language/snippets.json"
+      }
     ]
   },
   "scripts": {

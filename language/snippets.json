@@ -1,0 +1,80 @@
+{
+  "apply": {
+    "prefix": "apply",
+    "body": "{% apply ${1:filter} %}\n\t$0\n{% endapply %}",
+    "description": "The apply tag allows you to apply Twig filters on a block of template data.",
+    "scope": "text.html.twig"
+  },
+  "autoescape": {
+    "prefix": "autoescape",
+    "body": "{% autoescape %}\n\t$0\n{% endautoescape %}",
+    "description": "Whether automatic escaping is enabled or not, you can mark a section of a template to be escaped or not.",
+    "scope": "text.html.twig"
+  },
+  "block": {
+    "prefix": "block",
+    "body": "{% block ${1:name} %}\n\t$0\n{% endblock %}",
+    "description": "Blocks are used for template inheritance. When a template uses inheritance and you want to print a block multiple times, use the block function.",
+    "scope": "text.html.twig"
+  },
+  "cache": {
+    "prefix": "cache",
+    "body": "{% cache ${1:key} %}\n\t$0\n{% endcache %}",
+    "description": "The cache tag tells Twig that a template fragment should be cached.",
+    "scope": "text.html.twig"
+  },
+  "embed": {
+    "prefix": "embed",
+    "body": "{% embed \"${1:template}\" %}\n\t$0\n{% endembed %}",
+    "description": "The embed tag combines the behaviour of include and extends. It allows you to include another template's contents and override any block defined inside the included template.",
+    "scope": "text.html.twig"
+  },
+  "for": {
+    "prefix": "for",
+    "body": "{% for ${1:item} in ${2:items} %}\n\t$0\n{% endfor %}",
+    "description": "Loop over each item in a sequence.",
+    "scope": "text.html.twig"
+  },
+  "guard": {
+    "prefix": "guard",
+    "body": "{% guard ${1:function} ${2:name} %}\n\t$0\n{% endguard %}",
+    "description": "The guard tag checks if Twig callables (functions, filters, tests) are available at compilation time to bypass code that would otherwise fail. Added in Twig 3.15.",
+    "scope": "text.html.twig"
+  },
+  "if": {
+    "prefix": "if",
+    "body": "{% if ${1:condition} %}\n\t$0\n{% endif %}",
+    "description": "The if statement in Twig is comparable with the if statements of PHP.",
+    "scope": "text.html.twig"
+  },
+  "macro": {
+    "prefix": "macro",
+    "body": "{% macro ${1:name}(${2:params}) %}\n\t$0\n{% endmacro %}",
+    "description": "Macros are comparable with functions in regular programming languages. They are useful to reuse template fragments to not repeat yourself.",
+    "scope": "text.html.twig"
+  },
+  "sandbox": {
+    "prefix": "sandbox",
+    "body": "{% sandbox %}\n\t$0\n{% endsandbox %}",
+    "description": "The sandbox tag can be used to enable the sandboxing mode for an included template, when sandboxing is not enabled globally for the Twig environment. Deprecated as of Twig 3.15.",
+    "scope": "text.html.twig"
+  },
+  "setb": {
+    "prefix": "setb",
+    "body": "{% set ${1:name} %}\n\t$0\n{% endset %}",
+    "description": "Inside code blocks you can assign values to variables using the set tag with block syntax.",
+    "scope": "text.html.twig"
+  },
+  "verbatim": {
+    "prefix": "verbatim",
+    "body": "{% verbatim %}\n\t$0\n{% endverbatim %}",
+    "description": "The verbatim tag marks sections as being raw text that should not be parsed. Useful for putting Twig syntax as example into a template.",
+    "scope": "text.html.twig"
+  },
+  "with": {
+    "prefix": "with",
+    "body": "{% with ${1:{}} %}\n\t$0\n{% endwith %}",
+    "description": "Use the with tag to create a new inner scope. Variables set within this scope are not visible outside of the scope.",
+    "scope": "text.html.twig"
+  }
+}
