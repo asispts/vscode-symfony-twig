@@ -1,22 +1,22 @@
 <div align="center">
   <img src="./icon.png" height="128"/>
   <samp>
-    <h1>better-twig</h1>
-    <h3>Full Twig language support with seamless HTML integration</h3>
+    <h1>vscode-symfony-twig</h1>
+    <h3>Modern Twig development with seamless HTML integration</h3>
   </samp>
 </div>
 
-<!-- [![](https://img.shields.io/visual-studio-marketplace/d/asispts.vscode-better-twig?label=download)](https://marketplace.visualstudio.com/items?itemName=asispts.vscode-better-twig) -->
-<!-- [![](https://img.shields.io/open-vsx/dt/asispts/vscode-better-twig?label=Download)](https://open-vsx.org/extension/asispts/vscode-better-twig) -->
+<!-- [![](https://img.shields.io/visual-studio-marketplace/d/asispts.vscode-symfony-twig?label=download)](https://marketplace.visualstudio.com/items?itemName=asispts.vscode-symfony-twig) -->
+<!-- [![](https://img.shields.io/open-vsx/dt/asispts/vscode-symfony-twig?label=Download)](https://open-vsx.org/extension/asispts/vscode-symfony-twig) -->
 
-![](https://img.shields.io/github/license/asispts/vscode-better-twig)
-[![](https://img.shields.io/visual-studio-marketplace/v/asispts.vscode-better-twig?label=marketplace)](https://marketplace.visualstudio.com/items?itemName=asispts.vscode-better-twig)
-[![](https://img.shields.io/visual-studio-marketplace/i/asispts.vscode-better-twig)](https://marketplace.visualstudio.com/items?itemName=asispts.vscode-better-twig)
-[![open-vsx](https://img.shields.io/open-vsx/v/asispts/vscode-better-twig)](https://open-vsx.org/extension/asispts/vscode-better-twig)
+![](https://img.shields.io/github/license/asispts/vscode-symfony-twig)
+[![](https://img.shields.io/visual-studio-marketplace/v/asispts.vscode-symfony-twig?label=marketplace)](https://marketplace.visualstudio.com/items?itemName=asispts.vscode-symfony-twig)
+[![](https://img.shields.io/visual-studio-marketplace/i/asispts.vscode-symfony-twig)](https://marketplace.visualstudio.com/items?itemName=asispts.vscode-symfony-twig)
+[![open-vsx](https://img.shields.io/open-vsx/v/asispts/vscode-symfony-twig)](https://open-vsx.org/extension/asispts/vscode-symfony-twig)
 
 ## Installation
 
-Install via [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=asispts.vscode-better-twig) or [Open VSX](https://open-vsx.org/extension/asispts/vscode-better-twig).
+Install via [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=asispts.vscode-symfony-twig) or [Open VSX](https://open-vsx.org/extension/asispts/vscode-symfony-twig).
 
 ## Features
 

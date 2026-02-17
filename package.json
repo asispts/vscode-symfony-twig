@@ -1,7 +1,7 @@
 {
-  "name": "vscode-better-twig",
-  "displayName": "better-twig",
-  "description": "Better language support and formatter for Symfony Twig",
+  "name": "vscode-symfony-twig",
+  "displayName": "symfony-twig",
+  "description": "Modern Twig development with seamless HTML integration",
   "publisher": "asispts",
   "license": "MIT",
   "version": "0.0.0",
@@ -11,13 +11,13 @@
     "email": "asispts@gmail.com",
     "url": "https://github.com/asispts"
   },
-  "homepage": "https://github.com/asispts/vscode-better-twig",
+  "homepage": "https://github.com/asispts/vscode-symfony-twig",
   "repository": {
     "type": "git",
-    "url": "https://github.com/asispts/vscode-better-twig"
+    "url": "https://github.com/asispts/vscode-symfony-twig"
   },
   "bugs": {
-    "url": "https://github.com/asispts/vscode-better-twig/issues"
+    "url": "https://github.com/asispts/vscode-symfony-twig/issues"
   },
   "main": "./out/main.js",
   "engines": {
