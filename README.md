@@ -6,8 +6,13 @@
   </samp>
 </div>
 
-[![Visual Studio Marketplace](https://img.shields.io/visual-studio-marketplace/v/asispts.vscode-better-twig?label=vscode%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=asispts.vscode-better-twig)
-[![Open VSX](https://img.shields.io/badge/Open%20VSX-asispts.vscode--better--twig-blue)](https://open-vsx.org/extension/asispts/vscode-better-twig)
+<!-- [![](https://img.shields.io/visual-studio-marketplace/d/asispts.vscode-better-twig?label=download)](https://marketplace.visualstudio.com/items?itemName=asispts.vscode-better-twig) -->
+<!-- [![](https://img.shields.io/open-vsx/dt/asispts/vscode-better-twig?label=Download)](https://open-vsx.org/extension/asispts/vscode-better-twig) -->
+
+![](https://img.shields.io/github/license/asispts/vscode-better-twig)
+[![](https://img.shields.io/visual-studio-marketplace/v/asispts.vscode-better-twig?label=marketplace)](https://marketplace.visualstudio.com/items?itemName=asispts.vscode-better-twig)
+[![](https://img.shields.io/visual-studio-marketplace/i/asispts.vscode-better-twig)](https://marketplace.visualstudio.com/items?itemName=asispts.vscode-better-twig)
+[![open-vsx](https://img.shields.io/open-vsx/v/asispts/vscode-better-twig)](https://open-vsx.org/extension/asispts/vscode-better-twig)
 
 ## Installation
 
@@ -22,7 +27,7 @@ Install via [VS Code Marketplace](https://marketplace.visualstudio.com/items?ite
 
 - [x] Comprehensive Twig syntax highlighting
 - [x] Code folding for Twig control structures
-- [ ] Code snippets for common Twig patterns
+- [x] Code snippets for common Twig patterns
 
 ## License
 
