@@ -1,5 +1,7 @@
-node_modules/
-out/
+/node_modules/
+/out/
+/.idea/
+/.pnpm-store/
 
 *.vsix
 .git/

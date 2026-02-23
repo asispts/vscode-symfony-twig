@@ -68,8 +68,8 @@
   "scripts": {
     "vscode:prepublish": "pnpm run build",
     "build": "tsc",
-    "format": "prettier --write \"**/*.{json,ts,tsx,js,jsx,xml,plist}\" \"language/*.tmLanguage\"",
-    "format:check": "prettier --check \"**/*.{json,ts,tsx,js,jsx,xml,plist}\" \"language/*.tmLanguage\""
+    "format": "prettier --check .",
+    "format:fix": "prettier --write ."
   },
   "dependencies": {},
   "devDependencies": {
